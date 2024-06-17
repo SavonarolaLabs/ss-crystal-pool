@@ -1,0 +1,47 @@
+{
+  "name": "ss-crystal-pool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ssc build -r -o --test=./test/index.js --headless",
+    "init-project": "ssc init --config",
+    "dev": "ssc build -r -o --watch",
+    "build": "ssc build -o"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.2.1",
+    "@sveltejs/kit": "^2.5.10",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "@types/node": "^20.14.2",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "svelte-check": "^3.8.0",
+    "svelte-preprocess": "^5.1.4",
+    "tailwindcss": "^3.4.4",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.12",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "vite-plugin-wasm": "^3.3.0"
+  },
+  "dependencies": {
+    "@fleet-sdk/common": "^0.3.4",
+    "@fleet-sdk/core": "^0.4.0",
+    "@fleet-sdk/serializer": "^0.4.0",
+    "bignumber.js": "^9.1.2",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "buffer": "^6.0.3",
+    "ergo-lib-wasm-browser": "^0.26.0",
+    "socket.io-client": "^4.7.5",
+    "svelte": "^4.2.17",
+    "svelte-french-toast": "^1.2.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "type": "module"
+}

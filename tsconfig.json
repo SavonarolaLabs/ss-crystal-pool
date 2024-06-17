@@ -1,0 +1,19 @@
+{
+	"extends": "@tsconfig/svelte/tsconfig.json",
+	"compilerOptions": {
+	  "noImplicitAny": false,
+	  "lib": ["DOM", "ES2020"],
+	  "target": "ES2020",
+	  "strict": true,
+	  "esModuleInterop": true,
+	  "skipLibCheck": true,
+	  "forceConsistentCasingInFileNames": true,
+	  "baseUrl": ".",
+	  "paths": {
+		"$lib/*": ["src/lib/*"]
+	  }
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules/*", "__sapper__/*", "public/*"]
+  }
+  
